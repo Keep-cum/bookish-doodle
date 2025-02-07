@@ -11,3 +11,39 @@ jobs:
           directory: ./
       - name: 'Generate title and description'
         run: npm run generate-title-description
+name: Proof HTML
+
+on: [push, the correct location of `package.json`.
+
+For example, if pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-l `package.json` is in a different directory, modify the workflow to include a step to change to that directory:
+
+atest
+
+    steps:
+    - name: Checkout repository
+```yaml
+name: Proof HTML
+on:
+  push:
+  workflow_dispatch      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm ci
+      working-directory::
+jobs:
+  build:
+    runs-on: ubuntu-latest
+ ./path/to/correct/directory
+
+    - name: Generate title and description
+      run: npm run generate-title    steps:
+      - name: Checkout code
+        uses:-description
+      working-directory: ./path/to actions/checkout@v2
+
+      - name: Set up Node.js
+/correct/directory
